@@ -1,0 +1,128 @@
+/* Scroll Bar Css Code start from here */
+.main-container {
+  margin: auto;
+  overflow-x: scroll;
+}
+.abc-container {
+  width: 1510px;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* PopUp Card start from here */
+
+.card-heading h4 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 6px 0px;
+}
+
+.input-text {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.input-text input {
+  border: 1px solid #d9d9d9;
+  padding: 0px 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-wrapper::placeholder {
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.check-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 2rem;
+}
+
+.check-boxs label {
+  font-size: 12px;
+  padding: 4px;
+  font-family: monospace;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 3px 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1rem 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 1px solid #f7bdbd;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 1px solid #008cba;
+}
+
+.button2:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-container {
+  width: 400px;
+  height: 215px;
+  margin: 1rem 0px;
+  border-radius: 5px;
+  background: #accbee;
+  background: linear-gradient(to right, rgba(172, 203, 238, 0.5), rgba(0, 231, 240, 0.5));
+  background: linear-gradient(to right, rgba(172, 203, 238, 0.5), rgba(0, 231, 240, 0.5));
+  padding: 15px 0px;
+}
+
+.form-container:hover {
+  background: #fff1eb;
+
+  background: -webkit-linear-gradient(to right, rgba(255, 241, 235, 0.5), rgba(172, 224, 249, 0.5));
+
+  background: linear-gradient(to right, rgba(255, 241, 235, 0.5), rgba(172, 224, 249, 0.5));
+}
+
+.form-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map-container {
+  width: 100%;
+  margin: auto;
+  height: 60vh;
+}
